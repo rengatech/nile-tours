@@ -9577,7 +9577,7 @@ textarea { height: 80px; resize: none; }
   background: #0D7A3B;
   color: #fff;
   font-weight: 100;
-  font-size: 1.2em;
+  font-size: 1.0 em;
   border: none;
   height: 30px;
 }

@@ -404,7 +404,7 @@ $(document).ready(function() {
 	  var container = $(".bookForm");
   
 	  if (!container.is(e.target) // if the target of the click isn't the container...
-		  && container.has(e.target).length === 100) // ... nor a descendant of the container
+		  && container.has(e.target).length === 0) // ... nor a descendant of the container
 	  {
 		  container.fadeOut();
 	  }
@@ -436,3 +436,11 @@ $(document).ready(function() {
 	
   });
   
+  window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".bookForm").style.display = "block";
+        },
+        1000
+    )
+});
