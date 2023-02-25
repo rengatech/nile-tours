@@ -9459,17 +9459,7 @@ textarea.form-control {
       color: #ffffff;
       background-color: #252525;
   }
-@media (min-width:500px){
-.whatsapp{
-  width: 5%;position: absolute;top: 578px;left: 10px;border-radius: 50%;
-  }
-}
 
-@media (max-width:500px){
-  .whatsapp{
-    width: 12%;position: absolute;top: 529px;left: 0;border-radius: 50%;
-  }
-  }
   .container--gallery {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -9581,22 +9571,69 @@ textarea { height: 80px; resize: none; }
   border: none;
   height: 30px;
 }
-@media (min-width:500px){
+/* @media (min-width:500px){
   .booknow{
     position: absolute;top: 578px;right: 0;
     width: 16%;
     height: 64px;
     
     }
-  }
+  } */
   
-  @media (max-width:500px){
+  @media (min-height:900px){
+.whatsapp{
+  width: 10%;position: absolute;top: 800px;left: 10px;border-radius: 50%;
+  }
+}
+@media (min-height:900px){
+  .booknow{
+    position: absolute;top: 800px;right: 0;
+    width: 26%;
+  height: 49px;
+  }
+}
+@media (max-height:900px){
+  .whatsapp{
+    width: 10%;position: absolute;top: 830px;left: 10px;border-radius: 50%;
+    }
+  }
+  @media (max-height:900px){
     .booknow{
-      position: absolute;top: 529px;right: 0;
+      position: absolute;top: 830px;right: 0;
+      width: 35%;
+    height: 49px;
+    }
+  }
+@media (max-width:400px){
+  .whatsapp{
+    width: 12%;position: absolute;top: 615px;left: 10px;border-radius: 50%;
+  }
+  }
+  @media (max-width:400px){
+    .booknow{
+      position: absolute;top: 615px;right: 0;
       width: 42%;
     height: 49px;
     }
   }
+
+  @media (min-width:1000px){
+    .whatsapp{
+      width: 3%;position: absolute;top: 878px;left: 10px;border-radius: 50%;
+    }
+    }
+    @media (min-width:1000px){
+      .booknow{
+        position: absolute;top: 878px;right: 0;
+        width: 10%;
+      height: 49px;
+      }
+    }
+  /* @media (min-width:500px){
+  .whatsapp{
+    width: 5%;position: absolute;top: 800px;left: 10px;border-radius: 50%;
+  }
+  } */
 /* Blink for Webkit and others
 (Chrome, Safari, Firefox, IE, ...)
 */

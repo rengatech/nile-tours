@@ -441,6 +441,6 @@ $(document).ready(function() {
         function open(event){
             document.querySelector(".bookForm").style.display = "block";
         },
-        1000
+        3000
     )
 });
