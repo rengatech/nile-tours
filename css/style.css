@@ -9653,3 +9653,94 @@ textarea { height: 80px; resize: none; }
 .response{
   display: none;
 }
+.sec_title {
+  color: #0D7A3B;
+  font-size: calc(18px + 20 * ((100vw - 320px) / 980));
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.accordian-item {
+  background-color: #0D7A3B;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.accordian-link {
+  color: #fff;
+  font-size: calc(10px + 8 * ((100vw - 320px) / 680));
+  text-decoration: none;
+  width: 100%;
+  background-color: #0D7A3B;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-block: 1rem; */
+  cursor: pointer;
+}
+
+.answer {
+  overflow: hidden;
+  max-height: 0;
+  position: relative;
+  background-color: #fff;
+  transition: max-height 0.7s;
+}
+
+.answer p {
+  font-size: calc(10px + 6 * ((100vw - 320px) / 680));
+  color: #0D7A3B;
+  padding: 1rem;
+}
+
+.answer.open {
+  max-height: 10rem !important;
+  overflow-y: auto;
+}
+
+/*scrollbar width */
+.answer::-webkit-scrollbar {
+  width: 10px;
+}
+
+/*scrollbar Track */
+.answer::-webkit-scrollbar-track {
+  background: rgb(189, 190, 189);
+}
+
+.answer::-webkit-scrollbar-thumb {
+  background-color: green;
+  outline: 1px solid darkgreen;
+}
+
+/* footer styling */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #283042;
+  padding: 0.5rem;
+  text-align: center;
+  color: #fff;
+  font-size: calc(8px + 6 * ((100vw - 320px) / 680));
+  background: linear-gradient(-75deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0%,
+  100% {
+    background-position: 20% 10%;
+  }
+  20% {
+    background-position: 40% 20%;
+  }
+  40% {
+    background-position: 60% 40%;
+  }
+  80% {
+    background-position: 80% 60%;
+  }
+}
