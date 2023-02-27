@@ -9691,7 +9691,7 @@ textarea { height: 80px; resize: none; }
 
 .answer p {
   /* font-size: calc(10px + 6 * ((100vw - 320px) / 680)); */
-  color: #0D7A3B;
+  color: black;
   padding: 1rem;
 }
 
