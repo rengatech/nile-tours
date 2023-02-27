@@ -9661,6 +9661,7 @@ textarea { height: 80px; resize: none; }
   padding-bottom: 2rem;
 }
 .accordian-item {
+  border-bottom: solid 0.1rem;
   background-color: #fff;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
