@@ -8211,7 +8211,7 @@ textarea.form-control {
     font-size: 18px;
     font-weight: 400; }
   .ftco-footer .ftco-footer-widget ul li a span {
-    color: #fff; }
+    color: rgba(255, 255, 255, 0.7); }
   .ftco-footer .ftco-footer-widget .btn-primary {
     background: #fff !important;
     border: 2px solid #fff !important; }
@@ -8598,7 +8598,7 @@ textarea.form-control {
     width: 40px;
     font-size: 18px;
     padding-top: 2px;
-    color: white; }
+    color: rgba(255, 255, 255, 0.7); }
 
 .block-6 {
   margin-bottom: 40px; }
@@ -9661,12 +9661,12 @@ textarea { height: 80px; resize: none; }
   padding-bottom: 2rem;
 }
 .accordian-item {
-  border-bottom: solid 0.1rem #4DC68F;
+  border-bottom: solid 0.1rem;
   background-color: #fff;
   border-radius: 0.5rem;
   margin-bottom: 1rem;
   padding: 1rem;
-  box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0.4rem 0px 0.9rem rgb(0 0 0 / 5%);
 }
 
 .accordian-link {
@@ -9708,12 +9708,12 @@ textarea { height: 80px; resize: none; }
 
 /*scrollbar Track */
 .answer::-webkit-scrollbar-track {
-  background: rgb(189, 190, 189);
+  /* background: rgb(189, 190, 189); */
 }
 
 .answer::-webkit-scrollbar-thumb {
-  background-color: green;
-  outline: 1px solid darkgreen;
+      /* background-color: green;
+      outline: 1px solid darkgreen; */
 }
 
 /* footer styling */
